@@ -1,0 +1,49 @@
+function name should be in capital
+only renders one element in the index.js <> </>
+
+agar UI mai updation karna hai unlike vanilla js (get element by id and all ) , this thing is done in react through HOOKS
+
+import {useState, useEffect}  from 'react' to import the hook
+
+let [counter, setcounter] = useState(15) 
+here 15 is the default value of the variable counter 
+setcounter(counter+1) will set the counter value to +1 where ever there is counter in the UI
+
+virtual dom helps to compare itself with the actual DOM And changes are made to the things in the DOM which are changed (reconciliation) 
+
+PROPS are used to make components reusable
+passing the variables in props as constant values only
+you can also pass the default values in props 
+
+useCallback Think of memoization as caching a value so that it does not need to be recalculated.
+
+useEffect runs on every render. That means that when the count changes, a render happens, which then triggers another effect.
+
+We use Link ( has to )  and Navlink (has isactive and to ) of react router dom instead of a tag as a tag refreshes the whole page and react does not do that 
+
+whatever we write in navlink -> goes to the router handler and from there we are redirected to our page
+
+router and uske children, 
+outlet in react router dom 
+useparams to import user id from react router dom 
+
+context api is used to declare the variable as globally so that we do not have to again and again pass the same variable as props 
+
+you have to wrap everything around the context api tag so that we can use that context info inside everything that is wrapped inside the context api tag
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
